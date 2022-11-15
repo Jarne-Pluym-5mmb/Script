@@ -1,0 +1,17 @@
+/* this will center text/inline content in a block element */
+h2{
+    text-align: center;
+}
+
+/* width smaller than 100% will give us margin */
+section p{
+    width: 50%;
+    margin: auto;
+    background-color: bisque;
+}
+article p{
+    height: 40vh;
+    width: 50%;
+    background-color: blanchedalmond;
+    display: flex;
+}
