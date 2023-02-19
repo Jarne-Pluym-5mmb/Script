@@ -6,8 +6,7 @@
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin: 0;
-  padding: 0;
+  
 }
 
 header {
@@ -58,8 +57,7 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
+
 }
 
 nav a {
@@ -155,8 +153,7 @@ video {
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  
 }
 
 .products li {
