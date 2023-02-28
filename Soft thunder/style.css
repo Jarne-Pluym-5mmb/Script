@@ -27,6 +27,12 @@ header {
   display: flex;
   flex-direction: column;
 }
+body{
+  background-image: url(img/2028cf3327ab319e5181f2e51674bb26.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: goldenrod;
+}
 
 .first-row {
   height: 20vh;
@@ -112,5 +118,5 @@ header {
     }
     
     .facebook {
-    color: #3b5998;
+    color: #a2aec9;
     }
