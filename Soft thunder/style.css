@@ -27,6 +27,32 @@ header {
   display: flex;
   flex-direction: column;
 }
+
+
+
+
+
+
+.header-left,
+.header-right {
+  display: flex;
+}
+
+
+
+.header-center {
+  display: flex
+
+}
+i {
+  margin: 13px;
+}
+
+header a {
+  color: gold;
+
+}
+
 body{
   background-image: url(img/2028cf3327ab319e5181f2e51674bb26.jpg);
   background-repeat: no-repeat;
@@ -101,6 +127,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1rem;
+    padding: 2rem;
     }
     
     .social-icon {
@@ -109,14 +137,4 @@ body{
     cursor: pointer;
     }
     
-    .github {
-    color: #333;
-    }
-    
-    .tiktok {
-    color: #f06595;
-    }
-    
-    .facebook {
-    color: #a2aec9;
-    }
+   
