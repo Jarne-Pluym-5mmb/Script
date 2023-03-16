@@ -1,37 +1,25 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
+  color: black;
   
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   background-color: #333;
   color: #ffffff;
   padding: 1rem;
-  line-height: 0%;
+ }
 
-}
-
-
-.header-left,
-.header-right {
-  display: flex;
-}
-
-
-
-.header-center {
-  display: flex
-
-}
 i {
   margin: 13px;
 }
@@ -52,43 +40,9 @@ header img {
 }
 
 .search-icon {
-  background-color: transparent;
   border: none;
   cursor: pointer;
 }
-
-#search-bar-container {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  display: none;
-}
-
-#search-bar {
-  padding: 8px;
-  font-size: 16px;
-  border: none;
-  width: 100%;
-}
-
-#search-button {
-  background-color: #333;
-  color: white;
-  border: none;
-  cursor: pointer;
-  padding: 8px;
-  font-size: 16px;
-}
-
-#search-button:hover {
-  background-color: #555;
-}
-
-.show {
-  display: block;
-}
-
-
 
 nav {
   background-color: #333;
@@ -233,10 +187,6 @@ video {
 
 
 
-
-
-
-
 .hero-content{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -244,11 +194,14 @@ video {
 .products {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 6%;
   list-style: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
 }
+
+
 
 .products li {
 
@@ -256,8 +209,6 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
-  padding: 1rem;
   width: 280px;
 }
 
@@ -270,6 +221,7 @@ video {
   position: relative;
   display: inline-block;
   overflow: hidden;
+
 }
 
 .product-image {
@@ -332,10 +284,12 @@ video {
 }
 
 footer {
-  background-color: #f2f0f9;
+  background-color: #0074D9;
   padding: 50px;
   text-align: center;
+  color: #000;
 }
+
 
 .social-icons a:first-child {
   margin-right: 0;
@@ -408,21 +362,13 @@ footer {
   color: #999;
 }
 
-footer {
-  background-color: #0074D9;
-  padding: 50px;
-  text-align: center;
-  color: #000;
-}
 
 .newsletter {
   margin-top: 50px;
   color: white;
 }
 
-.newsletter-border:first-child {
-  margin-top: 0;
-}
+
 
 .newsletter-border {
   border: none;
