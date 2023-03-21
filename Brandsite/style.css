@@ -6,7 +6,7 @@
 
 
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'montserrat';
   background-color: white;
   color: black;
   
@@ -131,7 +131,7 @@ video {
   left: 0;
   width: 100%;
   font-size: 18px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Montserrat', sans-serif
 }
 
 .banner-text {
@@ -188,7 +188,7 @@ video {
 
 
 .hero-content{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif
 }
 
 .products {
@@ -197,7 +197,8 @@ video {
   justify-content: space-between;
   padding: 6%;
   list-style: none;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat' sans-serif;
+  
   
 }
 
@@ -215,6 +216,7 @@ video {
 .products img {
   height: 320px;
   width: 320px;
+  aspect-ratio: 5%;
 }
 
 .product-container {
@@ -356,6 +358,7 @@ footer {
   padding: 10px;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+  cursor: pointer;
 }
 
 .footer-links a:hover {
