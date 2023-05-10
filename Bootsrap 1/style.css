@@ -1,0 +1,11 @@
+.col img{
+    width: 50%;
+    height: 30%;
+    background-color: transparent;
+    padding-top: 50%;
+
+}
+
+body{
+    background-color: rgb(124, 215, 215);
+}
