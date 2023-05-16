@@ -1,11 +1,18 @@
-.col img{
-    width: 50%;
-    height: 30%;
-    background-color: transparent;
-    padding-top: 50%;
+.custom-img {
+    width: 300px;
+    height: 490px;
+    object-fit: cover;
+  }
 
-}
-
-body{
-    background-color: rgb(124, 215, 215);
-}
+  .custom-section {
+    background-color: #f2f2f2;
+  }
+  .custom-footer {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+  }
+  body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
