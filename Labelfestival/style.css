@@ -15,8 +15,8 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, bold;
 }
 .header-logo {
-  width: 100px;
-  height: 50px;
+  width: 80px;
+  height: 70px;
 }
 
 
@@ -150,6 +150,10 @@ header {
   
   a:hover {
     text-decoration: underline;
+  }
+
+  .column{
+    color: #000000;
   }
   
   
